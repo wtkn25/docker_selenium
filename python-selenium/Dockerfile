@@ -4,4 +4,4 @@ FROM python:3.8.0
 RUN set -x && \
   apt-get update && \
   apt-get install -y vim && \
-  pip install selenium=1.14.1
+  pip install selenium==3.14.1
