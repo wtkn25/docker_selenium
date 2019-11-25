@@ -17,6 +17,7 @@ services:
     ports:
       - 5900:5900
     volumes:
+      - ./download/:/home/seluser/Downloads/
       - /dev/shm:/dev/shm
 
   python:
